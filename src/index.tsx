@@ -11,7 +11,6 @@ import { SnackbarProvider } from 'notistack'
 const history = createBrowserHistory()
 
 ReactDOM.render(
-  // <React.StrictMode>
     <Provider store={store}>
       <Router history={history}>
         <SnackbarProvider maxSnack={3}>
@@ -19,6 +18,5 @@ ReactDOM.render(
         </SnackbarProvider>
       </Router>
     </Provider>,
-  // </React.StrictMode>,
   document.getElementById('root')
 )
