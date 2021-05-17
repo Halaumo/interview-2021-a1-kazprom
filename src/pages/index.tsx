@@ -9,7 +9,7 @@ import {
 import { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
-import { RowButtonPadding, Row } from './styles'
+import { RowButtonPadding, Row } from '../components/styles'
 import { usersAddOne, usersSetChecked, usersDeleteChecked, usersGetOne } from '../store/users/actions'
 import User from '../components/user'
 import Notifier from '../store/notistack/notifier'
